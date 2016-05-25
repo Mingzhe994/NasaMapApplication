@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		172F45FB1CF56D3700F6CE9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172F45FA1CF56D3700F6CE9C /* AppDelegate.swift */; };
-		172F45FD1CF56D3700F6CE9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172F45FC1CF56D3700F6CE9C /* ViewController.swift */; };
+		172F45FD1CF56D3700F6CE9C /* SatelliteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172F45FC1CF56D3700F6CE9C /* SatelliteViewController.swift */; };
 		172F46001CF56D3700F6CE9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 172F45FE1CF56D3700F6CE9C /* Main.storyboard */; };
 		172F46031CF56D3700F6CE9C /* NasaMapApplication.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 172F46011CF56D3700F6CE9C /* NasaMapApplication.xcdatamodeld */; };
 		172F46051CF56D3700F6CE9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172F46041CF56D3700F6CE9C /* Assets.xcassets */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		172F45F71CF56D3700F6CE9C /* NasaMapApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NasaMapApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		172F45FA1CF56D3700F6CE9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		172F45FC1CF56D3700F6CE9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		172F45FC1CF56D3700F6CE9C /* SatelliteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteViewController.swift; sourceTree = "<group>"; };
 		172F45FF1CF56D3700F6CE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		172F46021CF56D3700F6CE9C /* NasaMapApplication.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NasaMapApplication.xcdatamodel; sourceTree = "<group>"; };
 		172F46041CF56D3700F6CE9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				172F45FA1CF56D3700F6CE9C /* AppDelegate.swift */,
-				172F45FC1CF56D3700F6CE9C /* ViewController.swift */,
+				172F45FC1CF56D3700F6CE9C /* SatelliteViewController.swift */,
 				172F45FE1CF56D3700F6CE9C /* Main.storyboard */,
 				172F46041CF56D3700F6CE9C /* Assets.xcassets */,
 				172F46061CF56D3700F6CE9C /* LaunchScreen.storyboard */,
@@ -263,7 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				172F46031CF56D3700F6CE9C /* NasaMapApplication.xcdatamodeld in Sources */,
-				172F45FD1CF56D3700F6CE9C /* ViewController.swift in Sources */,
+				172F45FD1CF56D3700F6CE9C /* SatelliteViewController.swift in Sources */,
 				172F45FB1CF56D3700F6CE9C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,8 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SatelliteViewController: UIViewController {
 
+    var latitude: Double?
+    var longtitude: Double?
+    var APIkey = "GS38hoBuH5H3CVpqvR5gcoK3zIQzfIBCrevY3Nil"
+    let basicUrl = "https://api.nasa.gov/planetary/earth/imagery/"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
