@@ -14,8 +14,8 @@ class SatelliteViewController: UIViewController {
 
     @IBOutlet weak var satelliteImage: UIImageView!
     @IBOutlet weak var timeStamp: UILabel!
-    var latitude: Double?
-    var longtitude: Double?
+    var latitude: Float?
+    var longtitude: Float?
     var dim:Float?
     var APIkey = "GS38hoBuH5H3CVpqvR5gcoK3zIQzfIBCrevY3Nil"
     let apiBaseURL = "https://api.nasa.gov/planetary/earth/imagery"
@@ -25,16 +25,23 @@ class SatelliteViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         self.title = "Satellite Map"
         let urlComponents = NSURLComponents(string: apiBaseURL)!
+        satelliteImage.image = UIImage(named: "loading")
+        
+        latitude = -34.424984
+        //let text = NSString(format: "%.2f", latitude!)
+        
+        longtitude = 150.8931239
         
         
-        //let latitudeQuery: NSURLQueryItem = NSURLQueryItem(name: "lat", value: "132.3")
-        //let longtitudeQuery: NSURLQueryItem = NSURLQueryItem(name: "lon", value: "111.1")
+        let latitudeQuery: NSURLQueryItem = NSURLQueryItem(name: "lat", value: String(latitude!))
+        let longtitudeQuery: NSURLQueryItem = NSURLQueryItem(name: "lon", value: String(longtitude!))
+        let cloudScore: NSURLQueryItem = NSURLQueryItem(name: "cloud_score", value: "false")
         
-        let dateQuery: NSURLQueryItem = NSURLQueryItem(name: "date", value: "2013-04-07")
+        let dateQuery: NSURLQueryItem = NSURLQueryItem(name: "date", value: "2016-05-01")
         let apiKeyQuery:NSURLQueryItem = NSURLQueryItem(name: "api_key", value: APIkey)
         
-        //urlComponents.queryItems = [longtitudeQuery,latitudeQuery,dateQuery,apiKeyQuery]
-        urlComponents.queryItems = [dateQuery,apiKeyQuery]
+        urlComponents.queryItems = [longtitudeQuery,latitudeQuery,dateQuery,cloudScore,apiKeyQuery]
+        //urlComponents.queryItems = [dateQuery,apiKeyQuery]
 
         
         let url = urlComponents.URL!
@@ -71,6 +78,8 @@ class SatelliteViewController: UIViewController {
                     
                     var date: String?
                     var mapData: String?
+                    let resultString:String = NSString(data: d, encoding:NSUTF8StringEncoding)! as String
+                    print(resultString)
 
                     
                     do {
