@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		172F45FB1CF56D3700F6CE9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172F45FA1CF56D3700F6CE9C /* AppDelegate.swift */; };
+		172F45FD1CF56D3700F6CE9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172F45FC1CF56D3700F6CE9C /* ViewController.swift */; };
+		172F46001CF56D3700F6CE9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 172F45FE1CF56D3700F6CE9C /* Main.storyboard */; };
+		172F46031CF56D3700F6CE9C /* NasaMapApplication.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 172F46011CF56D3700F6CE9C /* NasaMapApplication.xcdatamodeld */; };
+		172F46051CF56D3700F6CE9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172F46041CF56D3700F6CE9C /* Assets.xcassets */; };
+		172F46081CF56D3700F6CE9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 172F46061CF56D3700F6CE9C /* LaunchScreen.storyboard */; };
+		172F46131CF56D3700F6CE9C /* NasaMapApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172F46121CF56D3700F6CE9C /* NasaMapApplicationTests.swift */; };
+		172F461E1CF56D3700F6CE9C /* NasaMapApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172F461D1CF56D3700F6CE9C /* NasaMapApplicationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		172F460F1CF56D3700F6CE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 172F45EF1CF56D3700F6CE9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 172F45F61CF56D3700F6CE9C;
+			remoteInfo = NasaMapApplication;
+		};
+		172F461A1CF56D3700F6CE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 172F45EF1CF56D3700F6CE9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 172F45F61CF56D3700F6CE9C;
+			remoteInfo = NasaMapApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		172F45F71CF56D3700F6CE9C /* NasaMapApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NasaMapApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		172F45FA1CF56D3700F6CE9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		172F45FC1CF56D3700F6CE9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		172F45FF1CF56D3700F6CE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		172F46021CF56D3700F6CE9C /* NasaMapApplication.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NasaMapApplication.xcdatamodel; sourceTree = "<group>"; };
+		172F46041CF56D3700F6CE9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		172F46071CF56D3700F6CE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		172F46091CF56D3700F6CE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		172F460E1CF56D3700F6CE9C /* NasaMapApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NasaMapApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		172F46121CF56D3700F6CE9C /* NasaMapApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaMapApplicationTests.swift; sourceTree = "<group>"; };
+		172F46141CF56D3700F6CE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		172F46191CF56D3700F6CE9C /* NasaMapApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NasaMapApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		172F461D1CF56D3700F6CE9C /* NasaMapApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaMapApplicationUITests.swift; sourceTree = "<group>"; };
+		172F461F1CF56D3700F6CE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		172F45F41CF56D3700F6CE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172F460B1CF56D3700F6CE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172F46161CF56D3700F6CE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		172F45EE1CF56D3700F6CE9C = {
+			isa = PBXGroup;
+			children = (
+				172F45F91CF56D3700F6CE9C /* NasaMapApplication */,
+				172F46111CF56D3700F6CE9C /* NasaMapApplicationTests */,
+				172F461C1CF56D3700F6CE9C /* NasaMapApplicationUITests */,
+				172F45F81CF56D3700F6CE9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		172F45F81CF56D3700F6CE9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				172F45F71CF56D3700F6CE9C /* NasaMapApplication.app */,
+				172F460E1CF56D3700F6CE9C /* NasaMapApplicationTests.xctest */,
+				172F46191CF56D3700F6CE9C /* NasaMapApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		172F45F91CF56D3700F6CE9C /* NasaMapApplication */ = {
+			isa = PBXGroup;
+			children = (
+				172F45FA1CF56D3700F6CE9C /* AppDelegate.swift */,
+				172F45FC1CF56D3700F6CE9C /* ViewController.swift */,
+				172F45FE1CF56D3700F6CE9C /* Main.storyboard */,
+				172F46041CF56D3700F6CE9C /* Assets.xcassets */,
+				172F46061CF56D3700F6CE9C /* LaunchScreen.storyboard */,
+				172F46091CF56D3700F6CE9C /* Info.plist */,
+				172F46011CF56D3700F6CE9C /* NasaMapApplication.xcdatamodeld */,
+			);
+			path = NasaMapApplication;
+			sourceTree = "<group>";
+		};
+		172F46111CF56D3700F6CE9C /* NasaMapApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				172F46121CF56D3700F6CE9C /* NasaMapApplicationTests.swift */,
+				172F46141CF56D3700F6CE9C /* Info.plist */,
+			);
+			path = NasaMapApplicationTests;
+			sourceTree = "<group>";
+		};
+		172F461C1CF56D3700F6CE9C /* NasaMapApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				172F461D1CF56D3700F6CE9C /* NasaMapApplicationUITests.swift */,
+				172F461F1CF56D3700F6CE9C /* Info.plist */,
+			);
+			path = NasaMapApplicationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		172F45F61CF56D3700F6CE9C /* NasaMapApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172F46221CF56D3700F6CE9C /* Build configuration list for PBXNativeTarget "NasaMapApplication" */;
+			buildPhases = (
+				172F45F31CF56D3700F6CE9C /* Sources */,
+				172F45F41CF56D3700F6CE9C /* Frameworks */,
+				172F45F51CF56D3700F6CE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NasaMapApplication;
+			productName = NasaMapApplication;
+			productReference = 172F45F71CF56D3700F6CE9C /* NasaMapApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		172F460D1CF56D3700F6CE9C /* NasaMapApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172F46251CF56D3700F6CE9C /* Build configuration list for PBXNativeTarget "NasaMapApplicationTests" */;
+			buildPhases = (
+				172F460A1CF56D3700F6CE9C /* Sources */,
+				172F460B1CF56D3700F6CE9C /* Frameworks */,
+				172F460C1CF56D3700F6CE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				172F46101CF56D3700F6CE9C /* PBXTargetDependency */,
+			);
+			name = NasaMapApplicationTests;
+			productName = NasaMapApplicationTests;
+			productReference = 172F460E1CF56D3700F6CE9C /* NasaMapApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		172F46181CF56D3700F6CE9C /* NasaMapApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172F46281CF56D3700F6CE9C /* Build configuration list for PBXNativeTarget "NasaMapApplicationUITests" */;
+			buildPhases = (
+				172F46151CF56D3700F6CE9C /* Sources */,
+				172F46161CF56D3700F6CE9C /* Frameworks */,
+				172F46171CF56D3700F6CE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				172F461B1CF56D3700F6CE9C /* PBXTargetDependency */,
+			);
+			name = NasaMapApplicationUITests;
+			productName = NasaMapApplicationUITests;
+			productReference = 172F46191CF56D3700F6CE9C /* NasaMapApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		172F45EF1CF56D3700F6CE9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Stuart;
+				TargetAttributes = {
+					172F45F61CF56D3700F6CE9C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5222JS844K;
+					};
+					172F460D1CF56D3700F6CE9C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5222JS844K;
+						TestTargetID = 172F45F61CF56D3700F6CE9C;
+					};
+					172F46181CF56D3700F6CE9C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5222JS844K;
+						TestTargetID = 172F45F61CF56D3700F6CE9C;
+					};
+				};
+			};
+			buildConfigurationList = 172F45F21CF56D3700F6CE9C /* Build configuration list for PBXProject "NasaMapApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 172F45EE1CF56D3700F6CE9C;
+			productRefGroup = 172F45F81CF56D3700F6CE9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				172F45F61CF56D3700F6CE9C /* NasaMapApplication */,
+				172F460D1CF56D3700F6CE9C /* NasaMapApplicationTests */,
+				172F46181CF56D3700F6CE9C /* NasaMapApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		172F45F51CF56D3700F6CE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172F46081CF56D3700F6CE9C /* LaunchScreen.storyboard in Resources */,
+				172F46051CF56D3700F6CE9C /* Assets.xcassets in Resources */,
+				172F46001CF56D3700F6CE9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172F460C1CF56D3700F6CE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172F46171CF56D3700F6CE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		172F45F31CF56D3700F6CE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172F46031CF56D3700F6CE9C /* NasaMapApplication.xcdatamodeld in Sources */,
+				172F45FD1CF56D3700F6CE9C /* ViewController.swift in Sources */,
+				172F45FB1CF56D3700F6CE9C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172F460A1CF56D3700F6CE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172F46131CF56D3700F6CE9C /* NasaMapApplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172F46151CF56D3700F6CE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172F461E1CF56D3700F6CE9C /* NasaMapApplicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		172F46101CF56D3700F6CE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 172F45F61CF56D3700F6CE9C /* NasaMapApplication */;
+			targetProxy = 172F460F1CF56D3700F6CE9C /* PBXContainerItemProxy */;
+		};
+		172F461B1CF56D3700F6CE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 172F45F61CF56D3700F6CE9C /* NasaMapApplication */;
+			targetProxy = 172F461A1CF56D3700F6CE9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		172F45FE1CF56D3700F6CE9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				172F45FF1CF56D3700F6CE9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		172F46061CF56D3700F6CE9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				172F46071CF56D3700F6CE9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		172F46201CF56D3700F6CE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		172F46211CF56D3700F6CE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		172F46231CF56D3700F6CE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NasaMapApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Stuart-Zhang.NasaMapApplication";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		172F46241CF56D3700F6CE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NasaMapApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Stuart-Zhang.NasaMapApplication";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		172F46261CF56D3700F6CE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NasaMapApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Stuart-Zhang.NasaMapApplicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NasaMapApplication.app/NasaMapApplication";
+			};
+			name = Debug;
+		};
+		172F46271CF56D3700F6CE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NasaMapApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Stuart-Zhang.NasaMapApplicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NasaMapApplication.app/NasaMapApplication";
+			};
+			name = Release;
+		};
+		172F46291CF56D3700F6CE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NasaMapApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Stuart-Zhang.NasaMapApplicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NasaMapApplication;
+			};
+			name = Debug;
+		};
+		172F462A1CF56D3700F6CE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NasaMapApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Stuart-Zhang.NasaMapApplicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NasaMapApplication;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		172F45F21CF56D3700F6CE9C /* Build configuration list for PBXProject "NasaMapApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172F46201CF56D3700F6CE9C /* Debug */,
+				172F46211CF56D3700F6CE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172F46221CF56D3700F6CE9C /* Build configuration list for PBXNativeTarget "NasaMapApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172F46231CF56D3700F6CE9C /* Debug */,
+				172F46241CF56D3700F6CE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		172F46251CF56D3700F6CE9C /* Build configuration list for PBXNativeTarget "NasaMapApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172F46261CF56D3700F6CE9C /* Debug */,
+				172F46271CF56D3700F6CE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		172F46281CF56D3700F6CE9C /* Build configuration list for PBXNativeTarget "NasaMapApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172F46291CF56D3700F6CE9C /* Debug */,
+				172F462A1CF56D3700F6CE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		172F46011CF56D3700F6CE9C /* NasaMapApplication.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				172F46021CF56D3700F6CE9C /* NasaMapApplication.xcdatamodel */,
+			);
+			currentVersion = 172F46021CF56D3700F6CE9C /* NasaMapApplication.xcdatamodel */;
+			path = NasaMapApplication.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 172F45EF1CF56D3700F6CE9C /* Project object */;
+}
