@@ -40,6 +40,11 @@
                             <constraint firstItem="tzs-Ej-p1d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="oLb-td-8LE"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="epb-hg-rKR"/>
+                    <connections>
+                        <outlet property="satelliteImage" destination="87b-Fd-rmt" id="XxD-Ta-18g"/>
+                        <outlet property="timeStamp" destination="tzs-Ej-p1d" id="gn8-hI-Su1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -54,7 +59,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="show" identifier="show" id="g29-QZ-CEe"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="z1n-9b-Yjk"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rrD-HP-NCo" userLabel="First Responder" sceneMemberID="firstResponder"/>

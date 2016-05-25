@@ -15,6 +15,9 @@
 		172F46081CF56D3700F6CE9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 172F46061CF56D3700F6CE9C /* LaunchScreen.storyboard */; };
 		172F46131CF56D3700F6CE9C /* NasaMapApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172F46121CF56D3700F6CE9C /* NasaMapApplicationTests.swift */; };
 		172F461E1CF56D3700F6CE9C /* NasaMapApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172F461D1CF56D3700F6CE9C /* NasaMapApplicationUITests.swift */; };
+		6541BF1DE66711BCA3EA0D9F /* Pods_NasaMapApplicationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6315DDB225577286082496 /* Pods_NasaMapApplicationTests.framework */; };
+		EAE75EE8AFA04A9438E61E37 /* Pods_NasaMapApplicationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6E96B0A549EDA70632BC7B /* Pods_NasaMapApplicationUITests.framework */; };
+		FC19C3C204A83FF0232FDB18 /* Pods_NasaMapApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EC5D65BE4FA86824514C92 /* Pods_NasaMapApplication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		172F46191CF56D3700F6CE9C /* NasaMapApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NasaMapApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		172F461D1CF56D3700F6CE9C /* NasaMapApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaMapApplicationUITests.swift; sourceTree = "<group>"; };
 		172F461F1CF56D3700F6CE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3328DBD9059C1D312B5A8F0E /* Pods-NasaMapApplicationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaMapApplicationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NasaMapApplicationUITests/Pods-NasaMapApplicationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		51EC5D65BE4FA86824514C92 /* Pods_NasaMapApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NasaMapApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A438EABEA00B69235830C2E /* Pods-NasaMapApplicationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaMapApplicationUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NasaMapApplicationUITests/Pods-NasaMapApplicationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5D4A3968FFD5A2B9646664D0 /* Pods-NasaMapApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaMapApplication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NasaMapApplication/Pods-NasaMapApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		5E6315DDB225577286082496 /* Pods_NasaMapApplicationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NasaMapApplicationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67955667BE954520CBCF8118 /* Pods-NasaMapApplicationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaMapApplicationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NasaMapApplicationTests/Pods-NasaMapApplicationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		76518582ED30ADF44137D031 /* Pods-NasaMapApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaMapApplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-NasaMapApplication/Pods-NasaMapApplication.release.xcconfig"; sourceTree = "<group>"; };
+		AF6E96B0A549EDA70632BC7B /* Pods_NasaMapApplicationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NasaMapApplicationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3ECF064011283845FC37076 /* Pods-NasaMapApplicationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaMapApplicationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NasaMapApplicationTests/Pods-NasaMapApplicationTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC19C3C204A83FF0232FDB18 /* Pods_NasaMapApplication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6541BF1DE66711BCA3EA0D9F /* Pods_NasaMapApplicationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAE75EE8AFA04A9438E61E37 /* Pods_NasaMapApplicationUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				172F46111CF56D3700F6CE9C /* NasaMapApplicationTests */,
 				172F461C1CF56D3700F6CE9C /* NasaMapApplicationUITests */,
 				172F45F81CF56D3700F6CE9C /* Products */,
+				EFC418C86B4D22C0417DF37A /* Pods */,
+				4C3D5F1C234D7BDAE9218433 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = NasaMapApplicationUITests;
 			sourceTree = "<group>";
 		};
+		4C3D5F1C234D7BDAE9218433 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51EC5D65BE4FA86824514C92 /* Pods_NasaMapApplication.framework */,
+				5E6315DDB225577286082496 /* Pods_NasaMapApplicationTests.framework */,
+				AF6E96B0A549EDA70632BC7B /* Pods_NasaMapApplicationUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFC418C86B4D22C0417DF37A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D4A3968FFD5A2B9646664D0 /* Pods-NasaMapApplication.debug.xcconfig */,
+				76518582ED30ADF44137D031 /* Pods-NasaMapApplication.release.xcconfig */,
+				67955667BE954520CBCF8118 /* Pods-NasaMapApplicationTests.debug.xcconfig */,
+				C3ECF064011283845FC37076 /* Pods-NasaMapApplicationTests.release.xcconfig */,
+				3328DBD9059C1D312B5A8F0E /* Pods-NasaMapApplicationUITests.debug.xcconfig */,
+				5A438EABEA00B69235830C2E /* Pods-NasaMapApplicationUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 172F46221CF56D3700F6CE9C /* Build configuration list for PBXNativeTarget "NasaMapApplication" */;
 			buildPhases = (
+				B98A93E559657451DC0B6806 /* 📦 Check Pods Manifest.lock */,
 				172F45F31CF56D3700F6CE9C /* Sources */,
 				172F45F41CF56D3700F6CE9C /* Frameworks */,
 				172F45F51CF56D3700F6CE9C /* Resources */,
+				A19299A8A8251AF36F74AA0D /* 📦 Embed Pods Frameworks */,
+				495DC31C2E375E56A8191377 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 172F46251CF56D3700F6CE9C /* Build configuration list for PBXNativeTarget "NasaMapApplicationTests" */;
 			buildPhases = (
+				F8A4E6CA1B4661D548401B09 /* 📦 Check Pods Manifest.lock */,
 				172F460A1CF56D3700F6CE9C /* Sources */,
 				172F460B1CF56D3700F6CE9C /* Frameworks */,
 				172F460C1CF56D3700F6CE9C /* Resources */,
+				4C1C0A44A04B2041846A8DE6 /* 📦 Embed Pods Frameworks */,
+				5AB72F7B47F8B0F019C62037 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 172F46281CF56D3700F6CE9C /* Build configuration list for PBXNativeTarget "NasaMapApplicationUITests" */;
 			buildPhases = (
+				9DE6FDB8C19EFAC613E0CF6F /* 📦 Check Pods Manifest.lock */,
 				172F46151CF56D3700F6CE9C /* Sources */,
 				172F46161CF56D3700F6CE9C /* Frameworks */,
 				172F46171CF56D3700F6CE9C /* Resources */,
+				6F468357F82C51C2A8A55A8E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +304,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		495DC31C2E375E56A8191377 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NasaMapApplication/Pods-NasaMapApplication-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C1C0A44A04B2041846A8DE6 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NasaMapApplicationTests/Pods-NasaMapApplicationTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AB72F7B47F8B0F019C62037 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NasaMapApplicationTests/Pods-NasaMapApplicationTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F468357F82C51C2A8A55A8E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NasaMapApplicationUITests/Pods-NasaMapApplicationUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE6FDB8C19EFAC613E0CF6F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A19299A8A8251AF36F74AA0D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NasaMapApplication/Pods-NasaMapApplication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B98A93E559657451DC0B6806 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8A4E6CA1B4661D548401B09 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		172F45F31CF56D3700F6CE9C /* Sources */ = {
@@ -404,28 +575,37 @@
 		};
 		172F46231CF56D3700F6CE9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D4A3968FFD5A2B9646664D0 /* Pods-NasaMapApplication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = NasaMapApplication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Stuart-Zhang.NasaMapApplication";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		172F46241CF56D3700F6CE9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76518582ED30ADF44137D031 /* Pods-NasaMapApplication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = NasaMapApplication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Stuart-Zhang.NasaMapApplication";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		172F46261CF56D3700F6CE9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67955667BE954520CBCF8118 /* Pods-NasaMapApplicationTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = NasaMapApplicationTests/Info.plist;
@@ -438,6 +618,7 @@
 		};
 		172F46271CF56D3700F6CE9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3ECF064011283845FC37076 /* Pods-NasaMapApplicationTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = NasaMapApplicationTests/Info.plist;
@@ -450,6 +631,7 @@
 		};
 		172F46291CF56D3700F6CE9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3328DBD9059C1D312B5A8F0E /* Pods-NasaMapApplicationUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = NasaMapApplicationUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -461,6 +643,7 @@
 		};
 		172F462A1CF56D3700F6CE9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A438EABEA00B69235830C2E /* Pods-NasaMapApplicationUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = NasaMapApplicationUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -489,6 +672,7 @@
 				172F46241CF56D3700F6CE9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		172F46251CF56D3700F6CE9C /* Build configuration list for PBXNativeTarget "NasaMapApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +681,7 @@
 				172F46271CF56D3700F6CE9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		172F46281CF56D3700F6CE9C /* Build configuration list for PBXNativeTarget "NasaMapApplicationUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +690,7 @@
 				172F462A1CF56D3700F6CE9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

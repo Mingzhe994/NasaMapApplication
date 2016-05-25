@@ -1,0 +1,6 @@
+framework module Pods_NasaMapApplicationTests {
+  umbrella header "Pods-NasaMapApplicationTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
